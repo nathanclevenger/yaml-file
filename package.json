@@ -1,0 +1,36 @@
+{
+  "name": "yaml-file",
+  "version": "0.1.0",
+  "description": "Simple YAML Read/Write to Files for NodeJS",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanclevenger/yaml-file.git"
+  },
+  "keywords": [
+    "yaml",
+    "file",
+    "node"
+  ],
+  "author": "Nathan Clevenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanclevenger/yaml-file/issues"
+  },
+  "homepage": "https://github.com/nathanclevenger/yaml-file#readme",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.8",
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
