@@ -1,5 +1,5 @@
 {
-  "name": "yaml-file",
+  "name": "node-yaml-file",
   "version": "0.1.0",
   "description": "Simple YAML Read/Write to Files for NodeJS",
   "type": "module",
